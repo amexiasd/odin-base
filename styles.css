@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 1.2em;
+    align-items: center;
+   
+}
+.logo{
+    flex: 50%;
+    font-size: 24px;
+    padding-left: 200px;
+    
+}
+.menu-link{
+    flex: 1;
+}
