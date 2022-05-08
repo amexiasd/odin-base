@@ -6,9 +6,9 @@
 
 }
 body{
-    max-width: 1024px;
+   
     margin: 0 auto;
-    background-color: #1f2937;
+  
 }
 .menu{
     display: flex;
@@ -16,11 +16,12 @@ body{
     color: #f9faf8;
     min-height: 100px;
     align-items: center;
-   
+   padding: 40px 200px 80px 200px;
 }
 .logo{
     flex: 50%;
-    font-size: 24px;    
+    font-size: 24px; 
+       
 }
 .menu-link{
     flex: 1;
@@ -29,12 +30,14 @@ body{
 .hero{
     display: flex;
     background-color: #1f2937;
+    max-height: 300px;
+    padding: 0px 200px;
 }
 .hero-title{
     color: #f9faf8;
     font-size: 48px;
     font-weight:bolder;
-    
+        
 }
 .hero-item{
     flex:1;
@@ -45,7 +48,7 @@ body{
 }
 .hero-text{
     color: #e5e7eb;
-    padding: 12px 0;
+    padding: 12px 50px 12px 0px;
 }
 .button{
     background-color: #3882f6;
@@ -54,3 +57,46 @@ body{
     border: #3882f6;
     border-radius: 5px;
 }
+img{
+    width :100%;
+    height: 75%;
+    object-fit: cover;
+}
+.random{
+    background-color: #f9faf8;
+    color: #1f2937;
+    text-align: center;
+    padding: 20px 200px;
+}
+.random-title{
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 20px 0px 40px 0px;
+}
+.pic-container{
+    display: flex;
+    align-content: space-between;
+    margin :0px 200px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container-item{
+    flex:1;
+    margin: 20px 10px;
+    
+}
+ .container-item img{
+    border: 3px solid #3882f6;
+    border-radius: 5%;
+    
+    
+    
+}
+.pic-text{
+    font-size: small;
+    margin-top: 20px;
+    text-align: center;
+}
+
