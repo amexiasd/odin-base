@@ -3,21 +3,54 @@
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #1f2937;
 }
 .menu{
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 1.2em;
+    min-height: 100px;
     align-items: center;
    
 }
 .logo{
     flex: 50%;
-    font-size: 24px;
-    padding-left: 200px;
-    
+    font-size: 24px;    
 }
 .menu-link{
     flex: 1;
+    font-size: small;
+}
+.hero{
+    display: flex;
+    background-color: #1f2937;
+}
+.hero-title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+    
+}
+.hero-item{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+   
+}
+.hero-text{
+    color: #e5e7eb;
+    padding: 12px 0;
+}
+.button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 12px;
+    border: #3882f6;
+    border-radius: 5px;
 }
