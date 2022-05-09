@@ -118,5 +118,11 @@ figcaption{
     font-size: 18px;
     font-weight: bold;
 }
+.cta{
+    align-items: center;
+    justify-content: center;
+    background-color: #f9faf8;
+    margin: 40px 200px;
+}
 
 
